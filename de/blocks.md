@@ -25,6 +25,12 @@ Dieser Block hat die "boolean form", diesen Block kann man in andere Blöcke rei
 
 ---
 
+![Set LED brightness](blocks/setledbrightness.svg)
+
+Dieser Block kann die Helligkeit einer LED auf einem PIN einstellen. Die (0) bei diesem Feld kann man bearbeiten um einen eigenen Pin zu verwenden. Die (255) bei diesem Feld kann auch bearbeitet werden um eine andere Helligkeit von 0-255 einzustellen.
+
+---
+
 ![LED Helligkeit](blocks/ledhelligkeit.svg)
 
 Dieser Block hat die "number form", diesen Block kann man ebenfalls in andere Blöcke reinsetzen um einen Zahlenwert auszulesen, in diesem Fall welche Helligkeit (0-255) eine LED hat, welche mit einem anderem Block eingestellt werden kann.

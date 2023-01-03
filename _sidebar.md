@@ -1,1 +1,5 @@
 * [PicoScratch](/README.md)
+* [Blocks](/blocks.md)
+  * [Events](/blocks.md#events)
+  * [Components](/blocks.md#components)
+  * [Debug](/blocks.md#debug)
