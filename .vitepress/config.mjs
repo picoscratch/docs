@@ -67,13 +67,13 @@ export default defineConfig({
 						{ text: "FAQ", link: "/mint/faq" }
 					]
 				},
-				{
-					text: "Calibration",
-					items: [
-						{ text: "Calibrate TDS sensor", link: "/mint/calibrate-tds" },
-						{ text: "Calibrate pH sensor", link: "/mint/calibrate-ph" }
-					]
-				},
+				// {
+					// text: "Calibration",
+					// items: [
+						// { text: "Calibrate TDS sensor", link: "/mint/calibrate-tds" },
+						// { text: "Calibrate pH sensor", link: "/mint/calibrate-ph" }
+					// ]
+				// },
 			],
 			"/learn": [
 				{
@@ -87,7 +87,7 @@ export default defineConfig({
 					text: "Manager for administrators",
 					items: [
 						{ text: "Logging in", link: "/learn/admin-login" },
-						{ text: "Managing teachers", link: "/learn/manage-teachers" },
+						// { text: "Managing teachers", link: "/learn/manage-teachers" },
 					]
 				}
 			]
@@ -185,13 +185,13 @@ export default defineConfig({
 								{ text: "FAQ", link: "/de/mint/faq" }
 							]
 						},
-						{
-							text: "Kalibrierung",
-							items: [
-								{ text: "TDS-Sensor kalibrieren", link: "/de/mint/calibrate-tds" },
-								{ text: "pH-Sensor kalibrieren", link: "/de/mint/calibrate-ph" }
-							]
-						},
+						// {
+						// 	text: "Kalibrierung",
+						// 	items: [
+						// 		{ text: "TDS-Sensor kalibrieren", link: "/de/mint/calibrate-tds" },
+						// 		{ text: "pH-Sensor kalibrieren", link: "/de/mint/calibrate-ph" }
+						// 	]
+						// },
 					],
 					"/de/learn": [
 						{
@@ -204,5 +204,8 @@ export default defineConfig({
 				},
 			}
 		}
-	}
+	},
+	sitemap: {
+    hostname: "https://docs.picoscratch.de"
+  }
 })
